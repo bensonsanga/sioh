@@ -22,8 +22,8 @@ get_header();
             <div class="page-cover">
                <div class="page-cover__image">
                   <picture class="page-cover__image-container">
-                     <img src="./Salt in our Hair – Travel Guides &amp; Tips, Sustainable and Digital Nomad tips_files/saltinourhair-header-micro.webp" class="page-cover__image--lowress" alt="Home">
-                     <img onload="this.classList.add(&#39;image-loaded&#39;)" class="page-cover__image--highress image-loaded" srcset="/build/images/home/saltinourhair-header-small.jpg 768w, /build/images/home/saltinourhair-header-medium.jpg 1024w, /build/images/home/saltinourhair-header-large.jpg 1350w, /build/images/home/saltinourhair-header-xlarge.jpg 1800w, /build/images/home/saltinourhair-header-default.jpg" alt="Home" sizes="auto">
+                     <img src="https://newcastlebeach.org/images/nice-landscape-6.jpg" class="page-cover__image--lowress" alt="Home">
+                     <img onload="this.classList.add(&#39;image-loaded&#39;)" class="page-cover__image--highress image-loaded" srcset="https://newcastlebeach.org/images/nice-landscape-6.jpg 768w, /build/images/home/saltinourhair-header-medium.jpg 1024w, /build/images/home/saltinourhair-header-large.jpg 1350w, /build/images/home/saltinourhair-header-xlarge.jpg 1800w, /build/images/home/saltinourhair-header-default.jpg" alt="Home" sizes="auto">
                   </picture>
                </div>
             </div>
@@ -693,42 +693,7 @@ get_header();
          </button>
       </nav>
 
-
-		<?php
-		if ( have_posts() ) :
-
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

@@ -37,7 +37,7 @@
          <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/build/styles/home.css">
       </noscript>
       <link rel="alternate" hreflang="en" href="https://www.saltinourhair.com">
-      <title>Salt in our Hair &ndash; Travel Guides &amp; Tips, Sustainable and Digital Nomad tips</title>
+      <title>Gilox-Work in progess</title>
       <meta name="description" content="Award-winning travel website featuring Travel Guides &amp; Tips, Digital Nomad resources, and Sustainable Travel Tips by Nick &amp; Hannah.">
       <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
       <link rel="canonical" href="https://www.saltinourhair.com/">

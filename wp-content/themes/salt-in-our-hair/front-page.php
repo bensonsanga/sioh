@@ -55,7 +55,7 @@ get_header();
                      <div class="article-block__content-link">
                         <span class="salt-icon salt-icon--compass-white"></span>
                         <div class="weekly-posts__travel-subtitle">This week:</div>
-                        <h2 class="article-block__title"><span>14 Ways to Travel from Home</span></h2>
+                        <h2 class="article-block__title"><span>Under construction by</span></h2>
                      </div>
                   </div>
                   <div class="article-block__image">
@@ -117,7 +117,7 @@ get_header();
             <a href="sri-lanka/" title="See all articles about Sri Lanka">
                <div class="monthly-destination__container">
                   <span class="monthly-destination__subtitle">Discover</span>
-                  <div class="monthly-destination__title" style="--title-length:9">Sri Lanka</div>
+                  <div class="monthly-destination__title" style="--title-length:9">Tanzania</div>
                   <p class="monthly-destination__excerpt">Lush tea plantations & waterfalls, tropical beaches, jaw-dropping wildlife, historical monuments & temples.</p>
                   <div class="monthly-destination__btn-circle">
                      <svg class="icon icon-arrow">
@@ -337,5 +337,4 @@ get_header();
          </section>
       </main>
 <?php
-get_sidebar();
 get_footer();

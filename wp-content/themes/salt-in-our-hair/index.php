@@ -18,37 +18,37 @@ get_header();
 	<main id="primary" class="site-main">
 
 	<header class="page-head">
-         <div class="page-cover__container">
-            <div class="page-cover">
-               <div class="page-cover__image">
-                  <picture class="page-cover__image-container">
-                     <img src="https://newcastlebeach.org/images/nice-landscape-6.jpg" class="page-cover__image--lowress" alt="Home">
-                     <img onload="this.classList.add(&#39;image-loaded&#39;)" class="page-cover__image--highress image-loaded" srcset="https://newcastlebeach.org/images/nice-landscape-6.jpg 768w, /build/images/home/saltinourhair-header-medium.jpg 1024w, /build/images/home/saltinourhair-header-large.jpg 1350w, /build/images/home/saltinourhair-header-xlarge.jpg 1800w, /build/images/home/saltinourhair-header-default.jpg" alt="Home" sizes="auto">
-                  </picture>
-               </div>
+      <div class="page-cover__container">
+         <div class="page-cover">
+            <div class="page-cover__image">
+               <picture class="page-cover__image-container">
+                  <img src="images/saltinourhair-header-micro.jpg?x67420" class="page-cover__image--lowress" alt="Home">
+                  <img onload="this.classList.add('image-loaded')" class="page-cover__image--highress image-loaded" srcset="images/saltinourhair-header-small.jpg 768w, images/saltinourhair-header-medium.jpg 1024w, images/saltinourhair-header-large.jpg 1350w, images/saltinourhair-header-xlarge.jpg 1800w, images/saltinourhair-header-default.jpg" alt="Home" sizes="auto">
+               </picture>
             </div>
-            <div class="home-cover__content">
-               <div class="home-cover__content-container">
-                  <figure class="logo logo--large"></figure>
-                  <figure class="logo logo--large logo--shadow"></figure>
-                  <p><em>Award-winning travel website featuring Travel Guides &amp; Tips, Digital Nomad Lifestyle guides, and Sustainable Travel Tips.</em></p>
-               </div>
-               <div class="home-cover__indicator">
-                  <svg class="icon icon-arrow">
-                     <use xlink:href="#icon-arrow"></use>
-                  </svg>
-               </div>
-               <svg width="100%" height="457" viewBox="0 0 3000 457" preserveAspectRatio="xMinYMax meet" class="home-cover__content-shape">
-                  <path fill="#FFF" d="M0 382c167 108 388 86 571 7 132-57 250-163 394-164 124-2 239 76 363 70 155-8 276-144 428-170 218-38 430 156 646 107 110-24 195-107 293-160 92-50 201-75 305-72v457H0z"></path>
+         </div>
+         <div class="home-cover__content">
+            <div class="home-cover__content-container">
+               <figure class="logo logo--large"></figure>
+               <figure class="logo logo--large logo--shadow"></figure>
+               <p><em>Award-winning travel website featuring Travel Guides &amp; Tips, Digital Nomad Lifestyle guides, and Sustainable Travel Tips.</em></p>
+            </div>
+            <div class="home-cover__indicator">
+               <svg class="icon icon-arrow">
+                  <use xlink:href="#icon-arrow"></use>
                </svg>
             </div>
+            <svg width="100%" height="457" viewBox="0 0 3000 457" preserveAspectRatio="xMinYMax meet" class="home-cover__content-shape">
+               <path fill="#FFF" d="M0 382c167 108 388 86 571 7 132-57 250-163 394-164 124-2 239 76 363 70 155-8 276-144 428-170 218-38 430 156 646 107 110-24 195-107 293-160 92-50 201-75 305-72v457H0z"></path>
+            </svg>
          </div>
-         <div class="page-head__container">
-            <div class="logo__container">
-               <a href="https://www.saltinourhair.com/" title="Salt in our Hair Travel Blog" class="logo"></a>
-            </div>
+      </div>
+      <div class="page-head__container">
+         <div class="logo__container">
+            <a href="https://www.saltinourhair.com/" title="Salt in our Hair Travel Blog" class="logo"></a>
          </div>
-      </header>
+      </div>
+   </header>
       <main class="page-content" id="maincontent">
          <section class="weekly-posts">
             <article class="weekly-posts__travel">
@@ -276,12 +276,12 @@ get_header();
                </div>
             </div>
             <picture class="banner-shop__image">
-               <img src="./Salt in our Hair – Travel Guides &amp; Tips, Sustainable and Digital Nomad tips_files/blank.webp" data-srcset="/build/images/home/preset-banner-s.jpg 820w, /build/images/home/preset-banner.jpg 1100w, /build/images/home/preset-banner-2.jpg" class="lazyautosizes lazyloaded" alt="Salt in our Hair Lightroom Presets" data-sizes="auto" sizes="1100px" srcset="/build/images/home/preset-banner-s.jpg 820w, /build/images/home/preset-banner.jpg 1100w, /build/images/home/preset-banner-2.jpg">
+               <img src="./Salt in our Hair – Travel Guides &amp; Tips, Sustainable and Digital Nomad tips_files/blank.webp" data-srcset="images/preset-banner-s.jpg 820w, images/preset-banner.jpg 1100w, images/preset-banner-2.jpg" class="lazyautosizes lazyloaded" alt="Salt in our Hair Lightroom Presets" data-sizes="auto" sizes="1100px" srcset="images/preset-banner-s.jpg 820w, images/preset-banner.jpg 1100w, images/preset-banner-2.jpg">
             </picture>
          </a>
          <section class="about">
             <div class="about-image">
-               <img src="./Salt in our Hair – Travel Guides &amp; Tips, Sustainable and Digital Nomad tips_files/blank.webp" data-srcset="/build/images/home/about-us.jpg 423w, /build/images/home/about-us-2.jpg 845w" class=" lazyloaded" width="423" height="427" alt="Hannah and Nick - Salt in our Hair" srcset="/build/images/home/about-us.jpg 423w, /build/images/home/about-us-2.jpg 845w">
+               <img src="./Salt in our Hair – Travel Guides &amp; Tips, Sustainable and Digital Nomad tips_files/blank.webp" data-srcset="images/about-us.jpg 423w, images/about-us-2.jpg 845w" class=" lazyloaded" width="423" height="427" alt="Hannah and Nick - Salt in our Hair" srcset="images/about-us.jpg 423w, images/about-us-2.jpg 845w">
             </div>
             <div class="about-content">
                <div class="about-content__title">

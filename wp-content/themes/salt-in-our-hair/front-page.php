@@ -43,7 +43,7 @@ get_header();
          </div>
          <div class="page-head__container">
             <div class="logo__container">
-               <a href title="Salt in our Hair Travel Blog" class="logo"></a>
+               <a href title="Beth's Blog" class="logo"></a>
             </div>
          </div>
       </header>
@@ -61,7 +61,7 @@ get_header();
                   <div class="article-block__image">
                      <div class="article-block__image-link">
                         <picture class="article-block__image-container">
-                           <img src="wp-content/uploads/2021/01/travel-from-home-tips-30x30_x67420.jpg" data-srcset="https://www.saltinourhair.com/wp-content/uploads/2021/01/travel-from-home-tips-600x600.jpg 600w, https://www.saltinourhair.com/wp-content/uploads/2021/01/travel-from-home-tips-1080x1080.jpg 1080w" class="lazypreload" alt="14 Ways to Travel from Home" data-sizes="auto">
+                           <img src="<?php bloginfo('template_directory');?>/wp-content/uploads/2021/01/travel-from-home-tips-30x30_x67420.jpg" data-srcset="https://www.saltinourhair.com/wp-content/uploads/2021/01/travel-from-home-tips-600x600.jpg 600w, https://www.saltinourhair.com/wp-content/uploads/2021/01/travel-from-home-tips-1080x1080.jpg 1080w" class="lazypreload" alt="14 Ways to Travel from Home" data-sizes="auto">
                         </picture>
                      </div>
                   </div>
@@ -274,12 +274,12 @@ get_header();
                </div>
             </div>
             <picture class="banner-shop__image">
-               <img src="<?php bloginfo('template_directory');?>/build/images/blank_x67420.png" data-srcset="<?php bloginfo('template_directory');?>/build/images/home/preset-banner-s.jpg 820w, <?php bloginfo('template_directory');?>/build/images/home/preset-banner.jpg 1100w, <?php bloginfo('template_directory');?>/build/images/home/preset-banner-2.jpg" class="lazyload" alt="Salt in our Hair Lightroom Presets" data-sizes="auto">
+               <img src="<?php bloginfo('template_directory');?>/build/images/blank_x67420.png" data-srcset="<?php bloginfo('template_directory');?>/build/images/home/preset-banner-s.jpg 820w, <?php bloginfo('template_directory');?>/build/images/home/preset-banner.jpg 1100w, <?php bloginfo('template_directory');?>/build/images/home/preset-banner-2.jpg" class="lazyload" alt="Beth's Blog Lightroom Presets" data-sizes="auto">
             </picture>
          </a>
          <section class="about">
             <div class="about-image">
-               <img src="<?php bloginfo('template_directory');?>/build/images/blank_x67420.png" data-srcset="<?php bloginfo('template_directory');?>/build/images/home/about-us.jpg 423w, <?php bloginfo('template_directory');?>/build/images/home/about-us-2.jpg 845w" class="lazyload" width="423" height="427" alt="Hannah and Nick - Salt in our Hair">
+               <img src="<?php bloginfo('template_directory');?>/build/images/blank_x67420.png" data-srcset="<?php bloginfo('template_directory');?>/build/images/home/about-us.jpg 423w, <?php bloginfo('template_directory');?>/build/images/home/about-us-2.jpg 845w" class="lazyload" width="423" height="427" alt="Beth's Blog">
             </div>
             <div class="about-content">
                <div class="about-content__title">
@@ -289,11 +289,11 @@ get_header();
                   Hannah &amp; Nick
                </div>
                <p class="about-content__text">
-                  Hi! We're Hannah &amp; Nick, two creatives that run a 'travel content creation' company named Salt in our Hair. We inspire people to travel via our travel guides, photography and videography.<br><a href="about-us/" target="_blank">More about us</a> / <a href="work-with-us/" target="_blank">Work with us</a>
+                  Hi! We're Hannah &amp; Nick, two creatives that run a 'travel content creation' company named Beth's Blog. We inspire people to travel via our travel guides, photography and videography.<br><a href="about-us/" target="_blank">More about us</a> / <a href="work-with-us/" target="_blank">Work with us</a>
                </p>
                <div class="socials">
                   <div class="socials__item">
-                     <a class="socials__link" href="https://www.instagram.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Instagram Salt in our Hair">
+                     <a class="socials__link" href="https://www.instagram.com/Bethsblog/" target="_blank" rel="noopener" aria-label="Instagram Bethsblog">
                         <svg class="icon icon-round-shape">
                            <use xlink:href="#icon-round-shape"/>
                         </svg>
@@ -303,7 +303,7 @@ get_header();
                      </a>
                   </div>
                   <div class="socials__item">
-                     <a class="socials__link" href="https://www.youtube.com/c/saltinourhairtravel?sub_confirmation=1" target="_blank" rel="noopener" aria-label="Youtube Salt in our Hair">
+                     <a class="socials__link" href="https://www.youtube.com/c/saltinourhairtravel?sub_confirmation=1" target="_blank" rel="noopener" aria-label="Youtube Bethsblog">
                         <svg class="icon icon-round-shape">
                            <use xlink:href="#icon-round-shape"/>
                         </svg>
@@ -313,7 +313,7 @@ get_header();
                      </a>
                   </div>
                   <div class="socials__item">
-                     <a class="socials__link" href="https://www.pinterest.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Pinterest Salt in our Hair">
+                     <a class="socials__link" href="https://www.pinterest.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Pinterest Beth's Blog">
                         <svg class="icon icon-round-shape">
                            <use xlink:href="#icon-round-shape"/>
                         </svg>
@@ -323,7 +323,7 @@ get_header();
                      </a>
                   </div>
                   <div class="socials__item">
-                     <a class="socials__link" href="https://www.facebook.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Facebook Salt in our Hair">
+                     <a class="socials__link" href="https://www.facebook.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Facebook Beth's Blog">
                         <svg class="icon icon-round-shape">
                            <use xlink:href="#icon-round-shape"/>
                         </svg>

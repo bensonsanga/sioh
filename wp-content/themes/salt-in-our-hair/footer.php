@@ -22,10 +22,10 @@
                   <a class="page-nav__link" href title="Home">Home</a>
                </li>
                <li class="page-nav__item visible-desktop">
-                  <a class="page-nav__link page-nav__link--sub page-nav__link--destinations page-nav__link--has-submenu" href="travel-blog/" title="Travel blogs">Destinations</a>
+                  <a class="page-nav__link page-nav__link--sub page-nav__link--destinations page-nav__link--has-submenu" href="<?php echo get_category_link( 205 ); ?>" title="Travel blogs">Professional life</a>
                </li>
                <li class="page-nav__item visible-desktop">
-                  <a class="page-nav__link page-nav__link--sub page-nav__link--tips page-nav__link--has-submenu" href="tips/" title="Tips">Tips &amp; How to's</a>
+                  <a class="page-nav__link page-nav__link--sub page-nav__link--tips page-nav__link--has-submenu" href="<?php echo get_category_link( 205 ); ?>" title="Tips">Personal life</a>
                </li>
                <li class="page-nav__item">
                   <a class="page-nav__link page-nav__link--has-submenu" href="about-us/" title="About us">About us</a>
@@ -41,12 +41,10 @@
                   </div>
                </li>
                <li class="page-nav__item page-nav__item--button">
-                  <a class="page-nav__link page-nav__link--has-submenu" href="presets/" title="Salt in our Hair Shop">Shop</a>
+                  <a class="page-nav__link page-nav__link--has-submenu" href="presets/" title="Salt in our Hair Shop">Download</a>
                   <div class="page-nav__item-subcontainer">
                      <ul class="page-nav__item-sublist">
-                        <li class="page-nav__item page-nav__item-subitem">
-                           <a class="page-nav__link" href="presets/" title="Photo Presets">Presets</a>
-                        </li>
+                        
                         <li class="page-nav__item page-nav__item-subitem">
                            <a class="page-nav__link" href="ebooks/traveling-sri-lanka/" title="Travel Ebooks">Ebooks</a>
                         </li>
@@ -138,203 +136,24 @@
          </div>
          <div class="page-nav__subcontainer page-nav__subcontainer--destinations">
             <div class="page-nav__subcontainer-continent">
-               <strong class="page-nav__sub-continent">
-                  <a href="asia/">
-                     Asia
-                     <svg class="icon">
-                        <use xlink:href="#icon-arrow-small"/>
-                     </svg>
-                  </a>
-               </strong>
+              
                <ul class="page-nav__sublist">
                   <li class="page-nav__subitem">
                      <a class="page-nav__sub-link " href="bali/" title="Bali">
-                     Bali </a>
+                     Budgeting </a>
                   </li>
                   <li class="page-nav__subitem">
                      <a class="page-nav__sub-link " href="cambodia/" title="Cambodia">
-                     Cambodia </a>
+                     Accounting  </a>
                   </li>
                   <li class="page-nav__subitem">
                      <a class="page-nav__sub-link " href="georgia/" title="Georgia">
-                     Georgia </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="india/" title="India">
-                     India </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="indonesia/" title="Indonesia">
-                     Indonesia </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="laos/" title="Laos">
-                     Laos </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="malaysia/" title="Malaysia">
-                     Malaysia </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="maldives/" title="Maldives">
-                     Maldives </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="myanmar/" title="Myanmar">
-                     Myanmar </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link page-nav__sub-link--small" href="philippines/" title="Philippines">
-                     Philippines </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="singapore/" title="Singapore">
-                     Singapore </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="sri-lanka/" title="Sri Lanka">
-                     Sri Lanka </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="thailand/" title="Thailand">
-                     Thailand </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="uzbekistan/" title="Uzbekistan">
-                     Uzbekistan </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="vietnam/" title="Vietnam">
-                     Vietnam </a>
-                  </li>
-               </ul>
-            </div>
-            <div class="page-nav__subcontainer-continent">
-               <strong class="page-nav__sub-continent">
-                  <a href="africa/">
-                     Africa
-                     <svg class="icon">
-                        <use xlink:href="#icon-arrow-small"/>
-                     </svg>
-                  </a>
-               </strong>
-               <ul class="page-nav__sublist">
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="egypt/" title="Egypt">
-                     Egypt </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="mauritius/" title="Mauritius">
-                     Mauritius </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="morocco/" title="Morocco">
-                     Morocco </a>
-                  </li>
-               </ul>
-            </div>
-            <div class="page-nav__subcontainer-continent">
-               <strong class="page-nav__sub-continent">
-                  <a href="europe/">
-                     Europe
-                     <svg class="icon">
-                        <use xlink:href="#icon-arrow-small"/>
-                     </svg>
-                  </a>
-               </strong>
-               <ul class="page-nav__sublist">
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link page-nav__sub-link--small" href="czech-republic/" title="Czech Republic">
-                     Czech Republic </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="france/" title="France">
-                     France </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="georgia/" title="Georgia">
-                     Georgia </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="hungary/" title="Hungary">
-                     Hungary </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="iceland/" title="Iceland">
-                     Iceland </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="italy/" title="Italy">
-                     Italy </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link page-nav__sub-link--small" href="netherlands/" title="Netherlands">
-                     Netherlands </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="poland/" title="Poland">
-                     Poland </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="portugal/" title="Portugal">
-                     Portugal </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="spain/" title="Spain">
-                     Spain </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="turkey/" title="Turkey">
-                     Turkey </a>
-                  </li>
-               </ul>
-            </div>
-            <div class="page-nav__subcontainer-continent">
-               <strong class="page-nav__sub-continent">
-                  <a href="middle-east/">
-                     Middle East
-                     <svg class="icon">
-                        <use xlink:href="#icon-arrow-small"/>
-                     </svg>
-                  </a>
-               </strong>
-               <ul class="page-nav__sublist">
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="egypt/" title="Egypt">
-                     Egypt </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="jordan/" title="Jordan">
-                     Jordan </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="oman/" title="Oman">
-                     Oman </a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="turkey/" title="Turkey">
-                     Turkey </a>
-                  </li>
-               </ul>
-            </div>
-            <div class="page-nav__subcontainer-continent">
-               <strong class="page-nav__sub-continent">
-                  <a href="south-america/">
-                     South America
-                     <svg class="icon">
-                        <use xlink:href="#icon-arrow-small"/>
-                     </svg>
-                  </a>
-               </strong>
-               <ul class="page-nav__sublist">
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="peru/" title="Peru">
-                     Peru </a>
+                     Business processes </a>
                   </li>
                </ul>
             </div>
             <a href="travel-blog/" title="Discover all travel blogs" class="page-nav__subcontainer-button">
-               All Travel Blogs
+               All Categories
                <svg class="icon">
                   <use xlink:href="#icon-arrow-small"/>
                </svg>
@@ -350,70 +169,25 @@
          </div>
          <div class="page-nav__subcontainer page-nav__subcontainer--tips">
             <div class="page-nav__subcontainer-tiplist">
-               <strong class="page-nav__sub-continent">
-                  <div>All categories</div>
-               </strong>
+               
                <ul class="page-nav__sublist">
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="travel-tips/" title="Travel Tips">Travel Tips</a>
+                     <a class="page-nav__sub-link" href="travel-tips/" title="Travel Tips">Hope</a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="digital-nomad/" title="Digital Nomad">Digital Nomad</a>
+                     <a class="page-nav__sub-link" href="digital-nomad/" title="Digital Nomad">Faith</a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="social-media/" title="Social Media">Social Media</a>
+                     <a class="page-nav__sub-link" href="social-media/" title="Social Media">Spirituality</a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="sustainability/" title="Sustainability">Sustainability</a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="budget/" title="Budget">Budget</a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href title="Tech">Tech</a>
-                  </li>
-                  <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="lifestyle/" title="Lifestyle">Lifestyle</a>
+                     <a class="page-nav__sub-link" href="sustainability/" title="Sustainability">Religion</a>
                   </li>
                </ul>
             </div>
-            <div class="page-nav__subcontainer-tipbest">
-               <strong class="page-nav__sub-continent visible-mobile">
-                  <div>Popular reads</div>
-               </strong>
-               <div class="articles-section grid-articles">
-                  <a class="article-block" href="tips/start-travel-blog/" title="How to Start a Travel Blog">
-                     <div class="article-block__content">
-                        <article class="article-block__content-link">
-                           <h2 class="article-block__title"><span>How to Start a Travel Blog</span></h2>
-                        </article>
-                     </div>
-                     <div class="article-block__image">
-                        <div class="article-block__image-link">
-                           <picture class="article-block__image-container">
-                              <img src="<?php bloginfo('template_directory');?>/wp-content/uploads/2018/07/how-to-start-a-travel-blog-30x20_x67420.jpg" data-sizes="auto" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2018/07/how-to-start-a-travel-blog-800x534.jpg 800w, <?php bloginfo('template_directory');?>/wp-content/uploads/2018/07/how-to-start-a-travel-blog-1080x721.jpg 1080w" class="lazypreload" alt="How to Start a Travel Blog" width="800" height="534">
-                           </picture>
-                        </div>
-                     </div>
-                  </a>
-                  <a class="article-block" href="tips/travel-insurance/" title="Best Travel Insurances in 2021">
-                     <div class="article-block__content">
-                        <article class="article-block__content-link">
-                           <h2 class="article-block__title"><span>Best Travel Insurances in 2021</span></h2>
-                        </article>
-                     </div>
-                     <div class="article-block__image">
-                        <div class="article-block__image-link">
-                           <picture class="article-block__image-container">
-                              <img src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/07/SA70650-30x27_x67420.jpg" data-sizes="auto" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/07/SA70650-679x600.jpg 679w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/07/SA70650-917x810.jpg 917w" class="lazypreload" alt="Best Travel Insurances in 2021" width="679" height="600">
-                           </picture>
-                        </div>
-                     </div>
-                  </a>
-               </div>
-            </div>
+            
             <a href="tips/" title="Discover all tips" class="page-nav__subcontainer-button">
-               All Tips & How to's
+               All Categories
                <svg class="icon">
                   <use xlink:href="#icon-arrow-small"/>
                </svg>
@@ -479,30 +253,36 @@
             <nav class="sitemap" aria-label="Sitemap">
                <ul class="sitemap__list">
                   <li class="sitemap__list-item">
-                     <a class="sitemap__list-title" href="travel-blog/" title="Travel Blogs">Travel Blogs</a>
+                     <a class="sitemap__list-title" href="travel-blog/" title="Travel Blogs">Professional development</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="bali/bali-route-guide/" title="Bali Travel Guide">Bali Travel Guide</a>
+                     <a href="bali/bali-route-guide/" title="Bali Travel Guide">Finance</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="sri-lanka/sri-lanka-route-guide/" title="Sri Lanka Travel Guide">Sri Lanka Travel Guide</a>
+                     <a href="sri-lanka/sri-lanka-route-guide/" title="Sri Lanka Travel Guide">Budgeting</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Peru Travel Guide</a>
+                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Accounting</a>
+                  </li>
+                  <li class="sitemap__list-item">
+                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Business processes</a>
                   </li>
                </ul>
                <ul class="sitemap__list">
                   <li class="sitemap__list-item">
-                     <a class="sitemap__list-title" href="tips/" title="Tips & Tricks">Tips & Tricks</a>
+                     <a class="sitemap__list-title" href="tips/" title="Tips & Tricks">Personal development</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="tips/start-travel-blog/" title="Start a Travel Blog">Start a Travel Blog</a>
+                     <a href="tips/start-travel-blog/" title="Start a Travel Blog">Hope</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="tips/reduce-plastic-travel/" title="Reduce travel plastic">Reduce travel plastic</a>
+                     <a href="tips/reduce-plastic-travel/" title="Reduce travel plastic">Faith</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="tips/camera-travel-photography/" title="Our Photography Gear">Our Photography Gear</a>
+                     <a href="tips/camera-travel-photography/" title="Our Photography Gear">Spirituality</a>
+                  </li>
+                  <li class="sitemap__list-item">
+                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Religion</a>
                   </li>
                </ul>
                <ul class="sitemap__list">
@@ -518,11 +298,9 @@
                </ul>
                <ul class="sitemap__list">
                   <li class="sitemap__list-item">
-                     <a class="sitemap__list-title" href="#" title="Shop">Shop</a>
+                     <a class="sitemap__list-title" href="#" title="Shop">Download</a>
                   </li>
-                  <li class="sitemap__list-item">
-                     <a href="presets/" title="Lightroom Presets">Lightroom Presets</a>
-                  </li>
+                  
                   <li class="sitemap__list-item">
                      <a href="ebooks/traveling-sri-lanka/" title="Ebooks">Ebooks</a>
                   </li>
@@ -530,7 +308,7 @@
                <ul class="sitemap__list">
                   <li class="sitemap__list-item"><span class="sitemap__list-title">Contact</span></li>
                   <li class="sitemap__list-item">
-                     <a href="mailto:ask@saltinourhair.com" target="_blank" title="Email us">ask@saltinourhair.com</a>
+                     <a href="mailto:ask@bethblog.com" target="_blank" title="Email us">ask@bethsblog.com</a>
                   </li>
                   <li class="sitemap__list-item">
                      <div class="socials socials--foot">
@@ -586,7 +364,7 @@
          </div>
          <div class="copyright">
             <div class="copyright__text">
-               &copy; <a href title="Salt in our Hair Travel Blog">Salt in our Hair</a> - <a href="tips/start-travel-blog/" target="_blank">Website build with ♥ by us</a> - <a href="privacy-policy/" target="_blank" title="Privacy">Privacy</a>
+               &copy; <a href title="Salt in our Hair Travel Blog">Beth's Blog</a> - <a href="www.gilox.co/" target="_blank">Website built by Gilox.co</a> - <a href="privacy-policy/" target="_blank" title="Privacy">Privacy</a>
                <span id="mv_privacy_settings">- <a href="javascript:window.__cmp(&#x27;showConsentTool&#x27;)">Update Privacy Settings</a></span> - Exclusive Member of Mediavine Travel
             </div>
          </div>

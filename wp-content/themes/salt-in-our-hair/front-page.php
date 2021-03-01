@@ -29,7 +29,7 @@ get_header();
                <div class="home-cover__content-container">
                   <figure class="logo logo--large"></figure>
                   <figure class="logo logo--large logo--shadow"></figure>
-                  <p><em>Award-winning travel website featuring Travel Guides &amp; Tips, Digital Nomad Lifestyle guides, and Sustainable Travel Tips.</em></p>
+                  <p><em></em></p>
                </div>
                <div class="home-cover__indicator">
                   <svg class="icon icon-arrow">
@@ -260,7 +260,7 @@ get_header();
             <div class="banner-shop__container">
                <div class="banner-shop__content">
                   <span class="banner-shop__title">
-                  Edit photos like us!
+                  Featured articles
                   </span>
                   <p>Bring color into your photography with our easy-to-use photos filters - add beautiful colors to your images!</p>
                   <div class="banner-shop__btn-circle">
@@ -286,10 +286,10 @@ get_header();
                   ABOUT
                </div>
                <div class="about-content__subtitle">
-                  Hannah &amp; Nick
+                  Beth Matamba
                </div>
                <p class="about-content__text">
-                  Hi! We're Hannah &amp; Nick, two creatives that run a 'travel content creation' company named Beth's Blog. We inspire people to travel via our travel guides, photography and videography.<br><a href="about-us/" target="_blank">More about us</a> / <a href="work-with-us/" target="_blank">Work with us</a>
+                  Hi, I'm Beth and this is my blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br><a href="about-us/" target="_blank">More about me</a> / <a href="work-with-us/" target="_blank">Work with me</a>
                </p>
                <div class="socials">
                   <div class="socials__item">

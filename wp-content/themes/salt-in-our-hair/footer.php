@@ -22,20 +22,20 @@
                   <a class="page-nav__link" href title="Home">Home</a>
                </li>
                <li class="page-nav__item visible-desktop">
-                  <a class="page-nav__link page-nav__link--sub page-nav__link--destinations page-nav__link--has-submenu" href="<?php echo get_category_link( 205 ); ?>" title="Travel blogs">Professional life</a>
+                  <a class="page-nav__link page-nav__link--sub page-nav__link--destinations page-nav__link--has-submenu" href="<?php echo get_category_link( 8 ); ?>" title="Travel blogs">Professional life</a>
                </li>
                <li class="page-nav__item visible-desktop">
-                  <a class="page-nav__link page-nav__link--sub page-nav__link--tips page-nav__link--has-submenu" href="<?php echo get_category_link( 205 ); ?>" title="Tips">Personal life</a>
+                  <a class="page-nav__link page-nav__link--sub page-nav__link--tips page-nav__link--has-submenu" href="<?php echo get_category_link( 8 ); ?>" title="Tips">Personal life</a>
                </li>
                <li class="page-nav__item">
-                  <a class="page-nav__link page-nav__link--has-submenu" href="about-us/" title="About us">About us</a>
+                  <a class="page-nav__link page-nav__link--has-submenu" href="about/" title="About us">About us</a>
                   <div class="page-nav__item-subcontainer">
                      <ul class="page-nav__item-sublist">
                         <li class="page-nav__item page-nav__item-subitem">
-                           <a class="page-nav__link" href="about-us/" title="About Salt in our Hair">Our story</a>
+                           <a class="page-nav__link" href="about/" title="About Salt in our Hair">Our story</a>
                         </li>
                         <li class="page-nav__item page-nav__item-subitem">
-                           <a class="page-nav__link" href="work-with-us/" title="Work with Salt in our Hair">Work with us</a>
+                           <a class="page-nav__link" href="about/" title="Work with Salt in our Hair">Work with us</a>
                         </li>
                      </ul>
                   </div>
@@ -139,15 +139,15 @@
               
                <ul class="page-nav__sublist">
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="bali/" title="Bali">
+                     <a class="page-nav__sub-link " href="<?php echo get_category_link( 4 ); ?>" title="Bali">
                      Budgeting </a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="cambodia/" title="Cambodia">
+                     <a class="page-nav__sub-link " href="<?php echo get_category_link( 5 ); ?>" title="Cambodia">
                      Accounting  </a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link " href="georgia/" title="Georgia">
+                     <a class="page-nav__sub-link " href="<?php echo get_category_link( 6 ); ?>" title="Georgia">
                      Business processes </a>
                   </li>
                </ul>
@@ -172,21 +172,21 @@
                
                <ul class="page-nav__sublist">
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="travel-tips/" title="Travel Tips">Hope</a>
+                     <a class="page-nav__sub-link" href="<?php echo get_category_link( 7 ); ?>" title="Travel Tips">Hope</a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="digital-nomad/" title="Digital Nomad">Faith</a>
+                     <a class="page-nav__sub-link" href="<?php echo get_category_link( 8 ); ?>" title="Digital Nomad">Faith</a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="social-media/" title="Social Media">Spirituality</a>
+                     <a class="page-nav__sub-link" href="<?php echo get_category_link( 9 ); ?>" title="Social Media">Spirituality</a>
                   </li>
                   <li class="page-nav__subitem">
-                     <a class="page-nav__sub-link" href="sustainability/" title="Sustainability">Religion</a>
+                     <a class="page-nav__sub-link" href="<?php echo get_category_link( 10 ); ?>" title="Sustainability">Religion</a>
                   </li>
                </ul>
             </div>
             
-            <a href="tips/" title="Discover all tips" class="page-nav__subcontainer-button">
+            <a href="<?php echo get_category_link( 8 ); ?>" title="Discover all tips" class="page-nav__subcontainer-button">
                All Categories
                <svg class="icon">
                   <use xlink:href="#icon-arrow-small"/>
@@ -253,19 +253,19 @@
             <nav class="sitemap" aria-label="Sitemap">
                <ul class="sitemap__list">
                   <li class="sitemap__list-item">
-                     <a class="sitemap__list-title" href="travel-blog/" title="Travel Blogs">Professional development</a>
+                     <a class="sitemap__list-title" href="<?php echo get_category_link( 8 ); ?>" title="Travel Blogs">Professional development</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="bali/bali-route-guide/" title="Bali Travel Guide">Finance</a>
+                     <a href="<?php echo get_category_link( 12 ); ?>" title="Bali Travel Guide">Finance</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="sri-lanka/sri-lanka-route-guide/" title="Sri Lanka Travel Guide">Budgeting</a>
+                     <a href="<?php echo get_category_link( 4 ); ?>" title="Sri Lanka Travel Guide">Budgeting</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Accounting</a>
+                     <a href="<?php echo get_category_link( 5 ); ?>" title="Peru Travel Guide">Accounting</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Business processes</a>
+                     <a href="<?php echo get_category_link( 6 ); ?>" title="Peru Travel Guide">Business processes</a>
                   </li>
                </ul>
                <ul class="sitemap__list">
@@ -273,27 +273,27 @@
                      <a class="sitemap__list-title" href="tips/" title="Tips & Tricks">Personal development</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="tips/start-travel-blog/" title="Start a Travel Blog">Hope</a>
+                     <a href="<?php echo get_category_link( 7 ); ?>" title="Start a Travel Blog">Hope</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="tips/reduce-plastic-travel/" title="Reduce travel plastic">Faith</a>
+                     <a href="<?php echo get_category_link( 8 ); ?>" title="Reduce travel plastic">Faith</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="tips/camera-travel-photography/" title="Our Photography Gear">Spirituality</a>
+                     <a href="<?php echo get_category_link( 9 ); ?>" title="Our Photography Gear">Spirituality</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="peru/peru-travel-guide/" title="Peru Travel Guide">Religion</a>
+                     <a href="<?php echo get_category_link( 10 ); ?>" title="Peru Travel Guide">Religion</a>
                   </li>
                </ul>
                <ul class="sitemap__list">
                   <li class="sitemap__list-item">
-                     <a class="sitemap__list-title" href="about-us/" title="About us">About us</a>
+                     <a class="sitemap__list-title" href="about/" title="About us">About us</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="about-us/" title="Our story">Our story</a>
+                     <a href="about/" title="Our story">Our story</a>
                   </li>
                   <li class="sitemap__list-item">
-                     <a href="work-with-us/" title="Work with us">Work with us</a>
+                     <a href="about/" title="Work with us">Work with us</a>
                   </li>
                </ul>
                <ul class="sitemap__list">
@@ -313,7 +313,7 @@
                   <li class="sitemap__list-item">
                      <div class="socials socials--foot">
                         <div class="socials__item">
-                           <a class="socials__link" href="https://www.instagram.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Instagram Salt in our Hair">
+                           <a class="socials__link" href="https://www.instagram.com/bethsblog/" target="_blank" rel="noopener" aria-label="Instagram Salt in our Hair">
                               <svg class="icon icon-round-shape">
                                  <use xlink:href="#icon-round-shape"/>
                               </svg>
@@ -323,7 +323,7 @@
                            </a>
                         </div>
                         <div class="socials__item">
-                           <a class="socials__link" href="https://www.youtube.com/c/saltinourhairtravel?sub_confirmation=1" target="_blank" rel="noopener" aria-label="Youtube Salt in our Hair">
+                           <a class="socials__link" href="https://www.youtube.com/c/bethsblog?sub_confirmation=1" target="_blank" rel="noopener" aria-label="Youtube Salt in our Hair">
                               <svg class="icon icon-round-shape">
                                  <use xlink:href="#icon-round-shape"/>
                               </svg>
@@ -333,7 +333,7 @@
                            </a>
                         </div>
                         <div class="socials__item">
-                           <a class="socials__link" href="https://www.pinterest.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Pinterest Salt in our Hair">
+                           <a class="socials__link" href="https://www.pinterest.com/bethsblog/" target="_blank" rel="noopener" aria-label="Pinterest Salt in our Hair">
                               <svg class="icon icon-round-shape">
                                  <use xlink:href="#icon-round-shape"/>
                               </svg>
@@ -343,7 +343,7 @@
                            </a>
                         </div>
                         <div class="socials__item">
-                           <a class="socials__link" href="https://www.facebook.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Facebook Salt in our Hair">
+                           <a class="socials__link" href="https://www.facebook.com/bethsblog/" target="_blank" rel="noopener" aria-label="Facebook Salt in our Hair">
                               <svg class="icon icon-round-shape">
                                  <use xlink:href="#icon-round-shape"/>
                               </svg>

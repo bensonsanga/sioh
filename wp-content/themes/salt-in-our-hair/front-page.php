@@ -117,7 +117,7 @@ get_header();
             <a href="sri-lanka/" title="See all articles about Sri Lanka">
                <div class="monthly-destination__container">
                   <span class="monthly-destination__subtitle">Discover</span>
-                  <div class="monthly-destination__title" style="--title-length:9">Tanzania</div>
+                  <div class="monthly-destination__title" style="--title-length:9">Locations</div>
                   <p class="monthly-destination__excerpt">Lush tea plantations & waterfalls, tropical beaches, jaw-dropping wildlife, historical monuments & temples.</p>
                   <div class="monthly-destination__btn-circle">
                      <svg class="icon icon-arrow">
@@ -139,7 +139,7 @@ get_header();
          </section>
          <section class="block-continents">
             <div class="block-continents__title">
-               Explore by continent
+               Explore by category
             </div>
             <div class="scroller">
                <div class="scroller__btn scroller__btn--prev">
@@ -157,10 +157,10 @@ get_header();
                <div class="scroller__container">
                   <div class="scroller__inner">
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="asia/" title="Asia Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Asia Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
-                                 <h2 class="article-block__title"><span>Asia</span></h2>
+                                 <h2 class="article-block__title"><span>Finance</span></h2>
                               </div>
                            </div>
                            <div class="article-block__image">
@@ -173,10 +173,10 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="europe/" title="Europe Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Europe Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
-                                 <h2 class="article-block__title"><span>Europe</span></h2>
+                                 <h2 class="article-block__title"><span>Budgeting</span></h2>
                               </div>
                            </div>
                            <div class="article-block__image">
@@ -189,10 +189,10 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="south-america/" title="South America Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="South America Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
-                                 <h2 class="article-block__title"><span>South America</span></h2>
+                                 <h2 class="article-block__title"><span>Accounting</span></h2>
                               </div>
                            </div>
                            <div class="article-block__image">
@@ -205,10 +205,10 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="africa/" title="Africa Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Africa Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
-                                 <h2 class="article-block__title"><span>Africa</span></h2>
+                                 <h2 class="article-block__title"><span>Business</span></h2>
                               </div>
                            </div>
                            <div class="article-block__image">
@@ -221,10 +221,10 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="middle-east/" title="Middle East Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Middle East Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
-                                 <h2 class="article-block__title"><span>Middle East</span></h2>
+                                 <h2 class="article-block__title"><span>Personal</span></h2>
                               </div>
                            </div>
                            <div class="article-block__image">

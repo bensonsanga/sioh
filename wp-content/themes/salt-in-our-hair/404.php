@@ -11,16 +11,15 @@ get_header();
 ?>
 
 	<main id="maincontent" class="maincontent">
-		<div class="page-content__content">
+		<div class="page-content__container">
 
 		
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'salt-in-our-hair' ); ?></h1>
-			</header><!-- .page-header -->
-
+			<div class="page-title__container">
+				<h1><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'salt-in-our-hair' ); ?></h1>
+			
 			
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'salt-in-our-hair' ); ?></p>
-
+			</div>
 					<?php
 					get_search_form();
 
@@ -37,7 +36,7 @@ get_header();
 									'order'      => 'DESC',
 									'show_count' => 1,
 									'title_li'   => '',
-									'number'     => 10,
+									'number'     => 5,
 								)
 							);
 							?>

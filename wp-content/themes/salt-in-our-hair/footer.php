@@ -93,7 +93,7 @@
                <li class="page-nav__item visible-desktop">
                   <div class="socials">
                      <div class="socials__item">
-                        <a class="socials__link" href="https://www.instagram.com/saltinourhair/" target="_blank" rel="noopener" aria-label="Instagram Salt in our Hair">
+                        <a class="socials__link" href="https://www.instagram.com/bethsblog/" target="_blank" rel="noopener" aria-label="Instagram Salt in our Hair">
                            <svg class="icon icon-round-shape">
                               <use xlink:href="#icon-round-shape"/>
                            </svg>
@@ -222,8 +222,8 @@
          </svg>
          <div class="page-foot__container">
             <div class="newsletter">
-               <h4 class="newsletter__title">The Travel <span>Letter</span></h4>
-               <p class="newsletter__text">Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+               <h4 class="newsletter__title">Beth's blog <span>Letter</span></h4>
+               <p class="newsletter__text"></p>
                <form action="https://www.saltinourhair.com/wp-admin/admin-ajax.php" method="post" class="newsletter__form" id="subcribe-newsletter">
                   <label class="newsletter__input" for="newsletter-email">
                   <input id="newsletter-email" type="email" name="email" value placeholder="Your email address" required onfocus="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = ''" onblur="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = 'Your email address'" data-cf-modified-bc9c9a5e2a5d4707b12e18b9->
@@ -235,11 +235,11 @@
                </form>
             </div>
             <div class="foot-instagram">
-               <a class="foot-instagram__image salt-bubble-mask" href="https://www.instagram.com/saltinourhair/" target="_blank" rel="noopener">
+               <a class="foot-instagram__image salt-bubble-mask" href="https://www.instagram.com/bethsblog/" target="_blank" rel="noopener">
                   <img src="<?php bloginfo('template_directory');?>/build/images/blank_x67420.png" data-src="<?php bloginfo('template_directory');?>/build/images/hannah-nick-saltinourhair-blog.jpg?x67420" class="lazyload" width="400" height="405" alt="Hannah and Nick - Salt in our Hair">
                   <div class="foot-instagram__content">
                      <svg class="icon icon-instagram">
-                        <use xlink:href="#icon-instagram"/>
+                        <!-- <use xlink:href="#icon-instagram"/> -->
                      </svg>
                      <p>
                         Follow our travels daily on Instagram together with 250K others. 
@@ -365,7 +365,7 @@
          <div class="copyright">
             <div class="copyright__text">
                &copy; <a href title="Salt in our Hair Travel Blog">Beth's Blog</a> - <a href="www.gilox.co/" target="_blank">Website built by Gilox.co</a> - <a href="privacy-policy/" target="_blank" title="Privacy">Privacy</a>
-               <span id="mv_privacy_settings">- <a href="javascript:window.__cmp(&#x27;showConsentTool&#x27;)">Update Privacy Settings</a></span> - Exclusive Member of Mediavine Travel
+               <span id="mv_privacy_settings">- <a href="javascript:window.__cmp(&#x27;showConsentTool&#x27;)">Update Privacy Settings</a></span>
             </div>
          </div>
       </footer>

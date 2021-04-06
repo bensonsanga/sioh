@@ -29,7 +29,7 @@ get_header();
                <div class="home-cover__content-container">
                   <figure class="logo logo--large"></figure>
                   <figure class="logo logo--large logo--shadow"></figure>
-                  <p><em></em></p>
+                  <p><em> Award-winning travel website featuring Travel Guides & Tips, Digital Nomad Lifestyle guides, and Sustainable Travel Tips. </em></p>
                </div>
                <div class="home-cover__indicator">
                   <svg class="icon icon-arrow">
@@ -117,7 +117,7 @@ get_header();
             <a href="sri-lanka/" title="See all articles about Sri Lanka">
                <div class="monthly-destination__container">
                   <span class="monthly-destination__subtitle">Discover</span>
-                  <div class="monthly-destination__title" style="--title-length:9">Locations</div>
+                  <div class="monthly-destination__title" style="--title-length:9">Trainings</div>
                   <p class="monthly-destination__excerpt">Lush tea plantations & waterfalls, tropical beaches, jaw-dropping wildlife, historical monuments & temples.</p>
                   <div class="monthly-destination__btn-circle">
                      <svg class="icon icon-arrow">
@@ -139,7 +139,7 @@ get_header();
          </section>
          <section class="block-continents">
             <div class="block-continents__title">
-               Explore by category
+               Explore by more topics
             </div>
             <div class="scroller">
                <div class="scroller__btn scroller__btn--prev">
@@ -157,7 +157,7 @@ get_header();
                <div class="scroller__container">
                   <div class="scroller__inner">
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Asia Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 12 ); ?>" title="Asia Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
                                  <h2 class="article-block__title"><span>Finance</span></h2>
@@ -173,7 +173,7 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Europe Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 4 ); ?>" title="Europe Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
                                  <h2 class="article-block__title"><span>Budgeting</span></h2>
@@ -189,7 +189,7 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="South America Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 5 ); ?>" title="South America Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
                                  <h2 class="article-block__title"><span>Accounting</span></h2>
@@ -205,7 +205,7 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Africa Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 6 ); ?>" title="Africa Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
                                  <h2 class="article-block__title"><span>Business</span></h2>
@@ -221,7 +221,7 @@ get_header();
                         </a>
                      </div>
                      <div class="scroller__item">
-                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 10 ); ?>" title="Middle East Travel Guides">
+                        <a class="article-block block-continents__item" href="<?php echo get_category_link( 3 ); ?>" title="Middle East Travel Guides">
                            <div class="article-block__content">
                               <div class="article-block__content-link">
                                  <h2 class="article-block__title"><span>Personal</span></h2>
@@ -286,7 +286,7 @@ get_header();
                   ABOUT
                </div>
                <div class="about-content__subtitle">
-                  Beth Matamba
+                  Mariabel Madamba
                </div>
                <p class="about-content__text">
                   Hi, I'm Beth and this is my blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br><a href="about-us/" target="_blank">More about me</a> / <a href="work-with-us/" target="_blank">Work with me</a>
